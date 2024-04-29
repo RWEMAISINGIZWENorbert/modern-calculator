@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">  
+     <div class="calculator">
+        <div class="display">
+            <input type="text" name="display" id="display" placeholder="0" readonly disabled>
+        </div>
+
+        <div class="number1">
+            <input type="button" value="C" onclick="opc()">
+            <input type="button" value="DEL" onclick="opdel()">
+            <input type="button" value="%" onclick="opper()">
+            <input type="button" value="/" onclick="opdivide()">
+        </div>
+        <div class="number1">
+            <input type="button" value="7" onclick="num7()">
+            <input type="button" value="8" onclick="num8()">
+            <input type="button" value="9" onclick="num9()">
+            <input type="button" value="*" onclick="opmult()">
+        </div>
+        <div class="number1">
+            <input type="button" value="4" onclick="num4()">
+            <input type="button" value="5" onclick="num5()">
+            <input type="button" value="6" onclick="num6()">
+            <input type="button" value="-" onclick="opmin()">
+        </div>
+        <div class="number1">
+            <input type="button" value="1" onclick="num1()">
+            <input type="button" value="2" onclick="num2()">
+            <input type="button" value="3" onclick="num3()">
+            <input type="button" value="+" onclick="opsum()">
+        </div>
+        <div class="number1">
+            <input type="button" value="." onclick="opdot()">
+            <input type="button" value="0" onclick="num0()">
+            <input type="button" value="=" onclick="opeq()" class="equal">
+            
+        </div>
+     </div></div>
+     
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
